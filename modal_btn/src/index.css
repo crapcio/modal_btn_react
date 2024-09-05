@@ -86,7 +86,7 @@ body {
   }
 }
 
-.overlay.animated {
+.overlay .animated {
   opacity: 0;
   visibility: hidden;
 
@@ -99,7 +99,7 @@ body {
 
   &.show {
     opacity: 1;
-    visibility: visible;
+    visibility:collapse;
 
     .modal {
       opacity: 1;
